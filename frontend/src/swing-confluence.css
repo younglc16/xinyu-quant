@@ -1,0 +1,16 @@
+.confluence{border-color:#a06432;background:linear-gradient(145deg,#33170ef7,#21110cf7)}
+.confluence-head{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap}
+.confluence-head h2{font-size:18px;margin-bottom:0}
+.confluence-status{color:#ffdf9b;font-size:14px;margin:16px 0}
+.confluence-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+.confluence-card{border:1px solid #80502b;border-radius:9px;padding:15px;background:#21110ce8}
+.confluence-card h3{display:flex;justify-content:space-between;gap:8px;flex-wrap:wrap;color:#fff0c5}
+.confluence-card h3 small{font-weight:400;color:#e5b777}
+.confluence-values{display:flex;gap:8px;flex-wrap:wrap;margin:12px 0}
+.confluence-values span{border:1px solid #704323;border-radius:6px;padding:7px 9px;color:#e6bf88;font-size:12px;font-variant-numeric:tabular-nums}
+.confluence-values b{color:#fff0c5;margin-left:4px;font-size:14px}
+.confluence-card p{font-size:12px;color:#d6ad79;margin-bottom:0}
+.confluence-evidence{display:flex;gap:8px;flex-wrap:wrap;margin:14px 0}
+.confluence-evidence span{font-size:12px;color:#f4d3a0;background:#422016;border:1px solid #85502c;padding:7px 10px;border-radius:6px}
+.signal-marker{filter:drop-shadow(0 1px 3px #120501)}
+@media(max-width:850px){.confluence-grid{grid-template-columns:1fr}}

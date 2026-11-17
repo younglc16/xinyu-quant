@@ -1,0 +1,18 @@
+/* Gold macro watch uses the system's existing fire, earth and metal palette. */
+.gold-signal{border-color:#9b622c;background:linear-gradient(120deg,#502009fa,#22100afa)}
+.gold-signal h2{font-size:25px;color:#ffe09a;margin:4px 0}
+.gold-signal.candidate{border-color:#ffd16b;box-shadow:0 0 0 1px #eab75755,0 12px 32px #09030188}
+.gold-signal.stale{border-color:#ae4a32}
+.gold-series{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
+.gold-series .panel{min-width:0}
+.gold-series-head,.gold-values,.gold-plot-dates{display:flex;justify-content:space-between;gap:12px}
+.gold-series-head{align-items:flex-start}
+.gold-series-head h2{margin-top:5px}
+.gold-values{padding:12px 0 15px;border-top:1px solid var(--line);border-bottom:1px solid var(--line);flex-wrap:wrap}
+.gold-values div{display:grid;gap:4px}
+.gold-values strong{font-size:17px;font-variant-numeric:tabular-nums}
+.gold-series svg{width:100%;height:auto;display:block;margin-top:12px}
+.gold-plot-dates{font-size:11px;color:var(--muted)}
+.gold-series a{color:#ffd17d}
+.gold-series .tip{margin-top:15px}
+@media(max-width:950px){.gold-series{grid-template-columns:1fr}}
